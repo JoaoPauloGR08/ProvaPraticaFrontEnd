@@ -11,12 +11,20 @@ a {
     text-decoration: none;
 }
 
+:root {
+   --lightbrown: #ffe5ae;
+   --darkbrown: #996900; 
+   --lightgray: #666;
+   --darkgray: #303030;
+   --white: #fff;
+}
+
 .montserratFont {
     font-family: "Montserrat", sans-serif;
 }
 
 #header {
-    background-color: #996900;
+    background-color: var(--darkbrown);
     padding-bottom: 2rem;
     display: flex;
     align-items: center;
@@ -36,14 +44,14 @@ a {
 }
 
 #nav-header div a {
-    color: #ffe5ae;
+    color: var(--lightbrown);
     font-weight: 400;
-    font-size: clamp(18px, 4.5vw, 20px);
+    font-size: 1.2rem;
     max-width: 300px;
 }
 
 #footer {
-    background-color: #996900;
+    background-color: var(--darkbrown);
     padding: 2rem;
     text-align: center;
 }
@@ -53,7 +61,7 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 1.3rem;
-    color: #ffe5ae;
+    color: var(--lightbrown);
 }
 
 .margin-1rem {
@@ -80,18 +88,18 @@ a {
 #section1-main-page div h2 {
     font-size: 2rem;
     text-align: center;
-    color: #303030;
+    color: var(--darkgray);
     margin: 0 2rem;
 }
 
 .button-big-main-page {
-    background-color: #666666;
+    background-color: var(--lightgray);
     padding: 1rem 2rem;
     font-size: 1.2rem;
 }
 
 .button-big-main-page a {
-    color: #fff;
+    color: var(--white);
 }
 
 #vistaverde-main-page {
@@ -152,13 +160,13 @@ a {
 
 .button-saibamais {
     font-size: 1rem;
-    background-color: #666666;
+    background-color: var(--lightgray);
     font-weight: 400;
     padding: 0.6rem;
 }
 
 .button-saibamais a {
-    color: #fff;
+    color: var(--white);
 }
 
 .products-main-page {
@@ -281,7 +289,7 @@ a {
         display: flex;
         justify-content: space-between;
         flex-direction: row;
-        background-color: #996900;
+        background-color: var(--darkbrown);
         padding-bottom: 0;
     }
     
@@ -300,7 +308,7 @@ a {
     }
     
     #nav-header div a {
-        color: #ffe5ae;
+        color: var(--lightbrown);
         font-weight: 400;
         font-size: 2.2vw;
     }
