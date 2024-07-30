@@ -14,9 +14,10 @@ a {
 :root {
     --lightbrown: #ffe5ae;
     --darkbrown: #996900;
-    --lightgray: #666;
+    --button: #ffb936;
     --darkgray: #303030;
     --white: #fff;
+    --black: #000;
 }
 
 .montserratFont {
@@ -93,13 +94,15 @@ a {
 }
 
 .button-big-main-page {
-    background-color: var(--lightgray);
+    background-color: var(--button);
     padding: 1rem 2rem;
     font-size: 1.2rem;
+    border-radius: 14px;
 }
 
 .button-big-main-page a {
-    color: var(--white);
+    color: var(--black);
+    font-weight: 700;
 }
 
 #vistaverde-main-page {
@@ -160,13 +163,15 @@ a {
 
 .button-saibamais {
     font-size: 1rem;
-    background-color: var(--lightgray);
+    background-color: var(--button);
     font-weight: 400;
     padding: 0.6rem;
+    border-radius: 14px;
 }
 
 .button-saibamais a {
-    color: var(--white);
+    color: var(--black);
+    font-weight: 700;
 }
 
 .products-main-page {
@@ -312,7 +317,28 @@ a {
     #nav-header div a {
         color: var(--lightbrown);
         font-weight: 400;
-        font-size: 1.6rem;
+        font-size: 1.2rem;
+        max-width: 300px;
+        position: relative;
+        text-decoration: none;
+    }
+    
+    #nav-header div a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background-color: var(--lightbrown);
+        transform: scaleX(0);
+        transform-origin: bottom left;
+        transition: transform 0.3s ease;
+    }
+    
+    #nav-header div a:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
     }
 
     #footer {
