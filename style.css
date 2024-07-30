@@ -18,23 +18,28 @@ a {
 #header {
     background-color: #996900;
     padding-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #header div img {
     max-width: 100%;
+    display: flex;
 }
 
 #nav-header {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
     gap: 10%;
 }
 
 #nav-header div a {
     color: #ffe5ae;
     font-weight: 400;
-    font-size: 1.2rem;
+    font-size: clamp(18px, 4.5vw, 20px);
+    max-width: 300px;
 }
 
 #footer {
@@ -93,6 +98,11 @@ a {
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
+}
+
+.width100 {
+    width: 100%;
+    max-width: 400px;
 }
 
 #vistaverde-main-page img {
@@ -268,6 +278,7 @@ a {
     #header {
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         background-color: #996900;
         padding-bottom: 0;
     }
