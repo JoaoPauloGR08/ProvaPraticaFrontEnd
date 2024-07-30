@@ -12,11 +12,11 @@ a {
 }
 
 :root {
-   --lightbrown: #ffe5ae;
-   --darkbrown: #996900; 
-   --lightgray: #666;
-   --darkgray: #303030;
-   --white: #fff;
+    --lightbrown: #ffe5ae;
+    --darkbrown: #996900;
+    --lightgray: #666;
+    --darkgray: #303030;
+    --white: #fff;
 }
 
 .montserratFont {
@@ -39,7 +39,7 @@ a {
 #nav-header {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     gap: 10%;
 }
 
@@ -285,6 +285,8 @@ a {
 
 @media (min-width: 768px) {
 
+    /* GERAL */
+
     #header {
         display: flex;
         justify-content: space-between;
@@ -292,29 +294,186 @@ a {
         background-color: var(--darkbrown);
         padding-bottom: 0;
     }
-    
+
     #header div img {
         max-width: 100%;
         margin-left: 2rem;
     }
-    
+
     #nav-header {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 25%;
-        margin-right: 10%;
-        margin-left: 4rem;
+        gap: 4rem;
+        margin-right: 5%;
+        margin-left: 2rem;
     }
-    
+
     #nav-header div a {
         color: var(--lightbrown);
         font-weight: 400;
-        font-size: 2.2vw;
+        font-size: 1.6rem;
+    }
+
+    #footer {
+        padding: 4rem 2rem;
+    }
+
+    #footer h3 {
+        font-size: 1.6rem;
     }
 
     /* PÁGINA PRINCIPAL */
 
+    #section1-main-page div h2 {
+        font-size: 5rem;
+        max-width: 978px;
+    }
 
+    .button-big-main-page {
+        font-size: 1.8rem;
+    }
+
+    #section2-main-page {
+        flex-direction: row;
+        gap: 5rem;
+        margin-top: 4rem;
+        align-items: flex-start;
+    }
+
+    #vistaverde-main-page {
+        margin: 0;
+    }
+
+    #vistaverde-main-page img {
+        max-width: 500px;
+    }
+
+    #section2-main-page div p {
+        font-size: 1.5rem;
+        max-width: 500px;
+    }
+
+    .image-produto-main-page img {
+        max-width: 500px;
+    }
+
+    .flexrow {
+        flex-direction: row;
+        gap: 5rem;
+    }
+
+    .width100 {
+        max-width: 1080px;
+    }
+
+    .button-saibamais {
+        font-size: 1.4rem;
+    }
+
+    .products-name-main-page {
+        font-size: 1.8rem;
+    }
+
+    /* SOBRE NÓS */
+
+    #section1-sobre {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+
+    .image-sobre-page img {
+        max-width: 500px;
+    }
+
+    #section2-sobre {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    #section3-sobre {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 3rem;
+    }
+
+    .subtitle-sobre {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #section1-sobre div p,
+    #section2-sobre div p,
+    #section3-sobre div p {
+        font-size: 1.3rem;
+    }
+
+    /* PRODUTOS */
+
+    #section-product-page h2 {
+        font-size: 3rem;
+    }
+
+    #section1-produtos {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+        align-items: flex-start;
+        margin-top: 4rem;
+    }
+
+    #produtos-image-principal {
+        width: 40vw;
+        max-width: 500px;
+    }
+
+    #section1-produtos div h2 {
+        font-size: 2.2rem;
+    }
+
+    #section2-produtos {
+        max-width: 1160px;
+    }
+
+    #section2-produtos div h3 {
+        margin: 0;
+        font-size: 1.9rem;
+    }
+
+    #div-section2-produtos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .text-produtos {
+        font-size: 1.2rem;
+    }
+
+    #geral-image-products {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2.5rem;
+    }
+
+    #geral-text-produtos {
+        max-width: 580px;
+    }
+
+    .image-products {
+        justify-content: flex-start;
+    }
+
+    .image-products img {
+        width: 100%;
+    }
 
 }
