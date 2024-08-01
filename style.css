@@ -338,7 +338,7 @@ a {
     }
     
     #nav-header div a:hover::after {
-        transform: scaleX(1);
+        transform: scaleX(1.02);
         transform-origin: bottom left;
     }
 
@@ -359,6 +359,11 @@ a {
 
     .button-big-main-page {
         font-size: 1.8rem;
+        transition: transform 0.3s ease;
+    }
+
+    .button-big-main-page:hover {
+        transform: scale(1.05);
     }
 
     #section2-main-page {
@@ -396,6 +401,11 @@ a {
 
     .button-saibamais {
         font-size: 1.4rem;
+        transition: transform 0.3s ease;
+    }
+
+    .button-saibamais:hover {
+        transform: scale(1.05);
     }
 
     .products-name-main-page {
