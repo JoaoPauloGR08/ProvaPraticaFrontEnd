@@ -30,10 +30,10 @@ O site "Vista Verde" foi desenvolvido para ilustrar habilidades em desenvolvimen
 6. **Modo Desenvolvedor**
     - Abra o menu de inspecionar elementos no seu navegador para acessar o modo desenvolvedor, permitindo uma análise detalhada do código e a realização de ajustes necessários.
 
-## **ou**
+    ###**ou**
 
-**Abra o link do site** 
-    - [Vista Verde](https://vistaverde.vercel.app/)
+    **Abra o link do site** 
+        - [Vista Verde](https://vistaverde.vercel.app/)
 
 ## **Considerações Finais**
 Este projeto foi uma valiosa oportunidade para aplicar os conceitos de desenvolvimento front-end e aprimorar habilidades práticas em HTML e CSS. Estou à disposição para quaisquer dúvidas ou necessidades de suporte adicional durante o desenvolvimento.
